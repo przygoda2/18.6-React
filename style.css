@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #444;
+    font-size: 25px;
+    color: #fff;
+
+}
+
+.counter {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 300px;
+    height: 100%;
+    background: #333;
+    position: relative;
+	top: 100px;
+    border: 1px solid #247bea;
+    text-align: center;
+
+}
+
+button {
+    text-align: center;
+    cursor: pointer;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    margin: 10px;
+    background: #247bea;
+    border: 1px solid #247bea;
+}
+
+
+
+
+
+
+.contactForm {
+    display: block;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.contactForm input {
+    padding: 10px;
+    margin-left: 10px;
+    background: #222;
+    color: white;
+    border: 1px double #555;
+}
+
+.contactForm button {
+    background: #247bea;
+    padding: 10px;
+    margin-left: 10px;
+    color: white;
+    border: 1px double #247bea;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.contactItem {
+    text-align: center;
+    color: white;
+    line-height: 2;
+}
+
+a.contactEmail {
+    color: #247bea;
+}
+
+img.contactImage {
+    width: 200px;
+    height: auto;
+}
