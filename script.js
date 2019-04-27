@@ -31,10 +31,19 @@ var first = React.createClass({
     }
 });
 
+/*
+return React.createElement('div', { className: 'counter' },
+            React.createElement(first),
+            React.createElement(first),
+            React.createElement(first),
+        );
+ */
+
 var element = React.createElement(first);
-ReactDOM.render(element, document.getElementById('app'));
-ReactDOM.render(element, document.getElementById('counterTwo'));
-ReactDOM.render(element, document.getElementById('counterThree'));
+ReactDOM.render(element, document.getElementById('first'));
+ReactDOM.render(element, document.getElementById('second'));
+ReactDOM.render(element, document.getElementById('three'));
+
 
 
 /*
